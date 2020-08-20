@@ -1,0 +1,129 @@
+#模式
+mode: auto
+#底部信息
+footer:
+  since: 2020
+  beian:
+    enable: false 
+    # icp: zhangliu
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2020-08-14 15:30:05"
+#语言
+language: zh-CN
+#社交信息
+social:
+  - name: GitHub
+    link: https://github.com/zhangliu554
+    icon: icon-github-line
+    color: "#6e5494"
+#  - name: 微博
+#   link: https://weibo.com/jizhideyunyoujun
+#   icon: icon-weibo-line
+#   color: "#E6162D"
+#  - name: 知乎
+#    link: https://www.zhihu.com/people/yunyoujun/
+#    icon: icon-zhihu-line
+#    color: "#0084FF"
+#主页
+banner:
+  enable: true
+  title: 嗷呜嗷呜
+  border: true
+  cloud:
+    enable: true
+    color: "#BADDF4"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+# main menu navigation
+#侧边菜单
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+    title: 首页
+  list:
+    - type: archives
+      title: 归档
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      title: 分类
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      title: 标签
+      path: /tags/
+      icon: icon-price-tag-3-line
+  custom:
+     title: 关于我
+     path: /albums/
+     icon: icon-gallery-line
+#侧边链接
+pages:
+    - name: 我的小伙伴们
+      url: /links/
+      icon: icon-open-arm-line
+      color: dodgerblue
+#头像信息
+avatar:
+  enable: true
+  rounded: true
+  url: https://lemon-29-zl.oss-cn-beijing.aliyuncs.com/Blog/fonticon.webp
+  opacity: 1
+  mickey_mouse: false 
+#暗色背景图片链接，仅在开启暗色模式时有效。
+# bg_image:
+#   enable: true
+#   url: https://lemon-29-zl.oss-cn-beijing.aliyuncs.com/Blog/bg.jpg
+#   opacity: 0.8
+#   dark: https://lemon-29-zl.oss-cn-beijing.aliyuncs.com/Blog/black.jpg
+#搜索
+engine_search:
+  enable: false
+#本地搜索
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+#文章信息
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+#版权信息
+creative_commons:
+  post: false
+#打赏信息
+reward:
+  enable: false
+#标签样式 标签云
+wordcloud:
+  enable: true
+  height: 200
+# 开启相册功能
+albums:
+  enable: true
+favicon: /lemon.svg
+#评论
+comment:
+  enable: true
+  tips:
+github_issues:
+  enable: false
+valine:
+  enable: true
+  appId: Js5OcOSwR1JKmUcJitomrFML-gzGzoHsz
+  appKey: WhJmHL6sN0wmyo8KYlgSXmp5
+  placeholder: Just go go # comment box placeholder
+  avatar: wavatar
+  meta:
+    - nick
+    - mail
+    - link
+  pageSize: 10 # pagination size
+  visitor: true
